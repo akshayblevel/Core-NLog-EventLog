@@ -1,0 +1,209 @@
+2019-01-19 14:30:00.3697 Debug ScanAssembly('NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c')
+2019-01-19 14:30:00.4203 Debug Found assembly location directory: 'C:\Users\Akshay\.nuget\packages\nlog\4.5.11\lib\netstandard2.0' (NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c)
+2019-01-19 14:30:00.4203 Debug Search for auto loading files in location: C:\Users\Akshay\.nuget\packages\nlog\4.5.11\lib\netstandard2.0
+2019-01-19 14:30:00.4203 Debug Found assembly location directory: 'D:\AKKI_DEV\RND\CoreNLogEventLog\CoreNLogEventLog\bin\Debug\netcoreapp2.0' (CoreNLogEventLog, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null)
+2019-01-19 14:30:00.4203 Debug Search for auto loading files in location: D:\AKKI_DEV\RND\CoreNLogEventLog\CoreNLogEventLog\bin\Debug\netcoreapp2.0
+2019-01-19 14:30:00.4203 Debug Auto loading based on AppDomain-BaseDirectory found location: D:\AKKI_DEV\RND\CoreNLogEventLog\CoreNLogEventLog\bin\Debug\netcoreapp2.0
+2019-01-19 14:30:00.4203 Debug Search for auto loading files in location: D:\AKKI_DEV\RND\CoreNLogEventLog\CoreNLogEventLog\bin\Debug\netcoreapp2.0
+2019-01-19 14:30:00.4203 Debug Start auto loading, location: C:\Users\Akshay\.nuget\packages\nlog\4.5.11\lib\netstandard2.0
+2019-01-19 14:30:00.4203 Trace Assembly 'Microsoft.Extensions.Logging, Version=2.0.2.0, Culture=neutral, PublicKeyToken=adb9793829ddae60' will be hidden in callsite stacktrace
+2019-01-19 14:30:00.4351 Trace Assembly 'Microsoft.Extensions.Logging.Abstractions, Version=2.0.2.0, Culture=neutral, PublicKeyToken=adb9793829ddae60' will be hidden in callsite stacktrace
+2019-01-19 14:30:00.4351 Debug Auto loading done
+2019-01-19 14:30:00.4351 Info Message Template Auto Format enabled
+2019-01-19 14:30:00.4351 Info Loading assembly: Nlog.WindowsEventLog
+2019-01-19 14:30:00.4351 Debug ScanAssembly('NLog.WindowsEventLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c')
+2019-01-19 14:30:00.4647 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2019-01-19 14:30:00.4692 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2019-01-19 14:30:00.4692 Debug Setting 'UppercaseLayoutRendererWrapper.uppercase' to 'true'
+2019-01-19 14:30:00.4871 Trace Wrapping LevelLayoutRenderer with UppercaseLayoutRendererWrapper
+2019-01-19 14:30:00.4871 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2019-01-19 14:30:00.4871 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2019-01-19 14:30:00.4871 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2019-01-19 14:30:00.4871 Trace Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2019-01-19 14:30:00.4871 Trace  Scanning Property Culture '' System.Globalization
+2019-01-19 14:30:00.4871 Trace  Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2019-01-19 14:30:00.4871 Trace  Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2019-01-19 14:30:00.4871 Trace   Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2019-01-19 14:30:00.4871 Trace   Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2019-01-19 14:30:00.4871 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2019-01-19 14:30:00.4871 Trace Scanning LoggerNameLayoutRenderer 'Layout Renderer: ${logger}'
+2019-01-19 14:30:00.4871 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2019-01-19 14:30:00.4871 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2019-01-19 14:30:00.5008 Debug Setting 'EventLogTarget.name' to 'eventlog'
+2019-01-19 14:30:00.5008 Debug Setting 'EventLogTarget.source' to 'NLogEventLog'
+2019-01-19 14:30:00.5008 Debug Setting 'EventLogTarget.layout' to '${message}${newline}${exception:format=ToString}'
+2019-01-19 14:30:00.5008 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2019-01-19 14:30:00.5008 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2019-01-19 14:30:00.5008 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2019-01-19 14:30:00.5008 Trace Scanning NewLineLayoutRenderer 'Layout Renderer: ${newline}'
+2019-01-19 14:30:00.5207 Debug Setting 'ExceptionLayoutRenderer.format' to 'ToString'
+2019-01-19 14:30:00.5207 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2019-01-19 14:30:00.5207 Trace Scanning ExceptionLayoutRenderer 'Layout Renderer: ${exception}'
+2019-01-19 14:30:00.5207 Trace  Scanning Property Formats 'System.Collections.Generic.List`1[NLog.Config.ExceptionRenderingFormat]' System.Collections.Generic
+2019-01-19 14:30:00.5207 Debug Setting 'EventLogTarget.Log' to 'Application'
+2019-01-19 14:30:00.5207 Debug Setting 'EventLogTarget.machinename' to '.'
+2019-01-19 14:30:00.5207 Info Adding target EventLog Target[eventlog]
+2019-01-19 14:30:00.5207 Debug Registered target eventlog: NLog.Targets.EventLogTarget
+2019-01-19 14:30:00.5207 Trace ParseRulesElement
+2019-01-19 14:30:00.5340 Info Configured from an XML element in D:\AKKI_DEV\RND\CoreNLogEventLog\CoreNLogEventLog/nlog.config...
+2019-01-19 14:30:00.5340 Debug Unused target checking is started... Rule Count: 1, Target Count: 1
+2019-01-19 14:30:00.5495 Debug Unused target checking is completed. Total Rule Count: 1, Total Target Count: 1, Unused Target Count: 0
+2019-01-19 14:30:00.5495 Debug --- NLog configuration dump ---
+2019-01-19 14:30:00.5495 Debug Targets:
+2019-01-19 14:30:00.5495 Debug EventLog Target[eventlog]
+2019-01-19 14:30:00.5495 Debug Rules:
+2019-01-19 14:30:00.5495 Debug logNamePattern: (:All) levels: [ Error Fatal ] appendTo: [ eventlog ]
+2019-01-19 14:30:00.5495 Debug --- End of NLog configuration dump ---
+2019-01-19 14:30:00.5495 Trace FindReachableObject<System.Object>:
+2019-01-19 14:30:00.5495 Trace Scanning LoggingRule 'logNamePattern: (:All) levels: [ Error Fatal ] appendTo: [ eventlog ]'
+2019-01-19 14:30:00.5610 Trace  Scanning Property Targets 'System.Collections.Generic.List`1[NLog.Targets.Target]' System.Collections.Generic
+2019-01-19 14:30:00.5610 Trace  Scanning EventLogTarget 'EventLog Target[eventlog]'
+2019-01-19 14:30:00.5610 Trace   Scanning Property Source ''NLogEventLog'' NLog.Layouts
+2019-01-19 14:30:00.5610 Trace   Scanning SimpleLayout ''NLogEventLog''
+2019-01-19 14:30:00.5610 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2019-01-19 14:30:00.5610 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2019-01-19 14:30:00.5610 Trace   Scanning Property Layout ''${message}${newline}${exception:format=ToString}'' NLog.Layouts
+2019-01-19 14:30:00.5610 Trace   Scanning SimpleLayout ''${message}${newline}${exception:format=ToString}''
+2019-01-19 14:30:00.5610 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2019-01-19 14:30:00.5610 Trace    Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2019-01-19 14:30:00.5610 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2019-01-19 14:30:00.5610 Trace    Scanning ExceptionLayoutRenderer 'Layout Renderer: ${exception}'
+2019-01-19 14:30:00.5610 Trace     Scanning Property Formats 'System.Collections.Generic.List`1[NLog.Config.ExceptionRenderingFormat]' System.Collections.Generic
+2019-01-19 14:30:00.5610 Trace  Scanning Property ChildRules 'System.Collections.Generic.List`1[NLog.Config.LoggingRule]' System.Collections.Generic
+2019-01-19 14:30:00.5610 Trace  Scanning Property Filters 'System.Collections.Generic.List`1[NLog.Filters.Filter]' System.Collections.Generic
+2019-01-19 14:30:00.5610 Trace  Scanning Property Levels 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LogLevel]' System.Collections.ObjectModel
+2019-01-19 14:30:00.5610 Info Found 8 configuration items
+2019-01-19 14:30:00.5610 Trace Initializing Layout Renderer: ${exception}
+2019-01-19 14:30:00.5610 Trace Initializing Layout Renderer: ${literal}
+2019-01-19 14:30:00.5610 Trace Initializing Layout Renderer: ${message}
+2019-01-19 14:30:00.5610 Trace Initializing '${message}${newline}${exception:format=ToString}'
+2019-01-19 14:30:00.5772 Trace FindReachableObject<System.Object>:
+2019-01-19 14:30:00.5772 Trace Scanning SimpleLayout ''${message}${newline}${exception:format=ToString}''
+2019-01-19 14:30:00.5772 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2019-01-19 14:30:00.5772 Trace  Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2019-01-19 14:30:00.5772 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2019-01-19 14:30:00.5772 Trace  Scanning ExceptionLayoutRenderer 'Layout Renderer: ${exception}'
+2019-01-19 14:30:00.5772 Trace   Scanning Property Formats 'System.Collections.Generic.List`1[NLog.Config.ExceptionRenderingFormat]' System.Collections.Generic
+2019-01-19 14:30:00.5772 Trace Initializing Layout Renderer: ${literal}
+2019-01-19 14:30:00.5772 Trace Initializing 'NLogEventLog'
+2019-01-19 14:30:00.5772 Trace FindReachableObject<System.Object>:
+2019-01-19 14:30:00.5772 Trace Scanning SimpleLayout ''NLogEventLog''
+2019-01-19 14:30:00.5772 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2019-01-19 14:30:00.5772 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2019-01-19 14:30:00.5772 Trace Initializing EventLog Target[eventlog]
+2019-01-19 14:30:00.5772 Trace FindReachableObject<NLog.Layouts.Layout>:
+2019-01-19 14:30:00.5772 Trace Scanning EventLogTarget 'EventLog Target[eventlog]'
+2019-01-19 14:30:00.5772 Trace  Scanning Property Source ''NLogEventLog'' NLog.Layouts
+2019-01-19 14:30:00.5772 Trace  Scanning SimpleLayout ''NLogEventLog''
+2019-01-19 14:30:00.5772 Trace  Scanning Property Layout ''${message}${newline}${exception:format=ToString}'' NLog.Layouts
+2019-01-19 14:30:00.5772 Trace  Scanning SimpleLayout ''${message}${newline}${exception:format=ToString}''
+2019-01-19 14:30:00.5923 Trace EventLog Target[eventlog] has 2 layouts
+2019-01-19 14:30:00.6173 Debug Watching path 'D:\AKKI_DEV\RND\CoreNLogEventLog\CoreNLogEventLog' filter 'nlog.config' for changes.
+2019-01-19 14:32:24.8252 Debug ScanAssembly('NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c')
+2019-01-19 14:32:24.9293 Debug Found assembly location directory: 'C:\Users\Akshay\.nuget\packages\nlog\4.5.11\lib\netstandard2.0' (NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c)
+2019-01-19 14:32:24.9293 Debug Search for auto loading files in location: C:\Users\Akshay\.nuget\packages\nlog\4.5.11\lib\netstandard2.0
+2019-01-19 14:32:24.9365 Debug Found assembly location directory: 'D:\AKKI_DEV\RND\CoreNLogEventLog\CoreNLogEventLog\bin\Debug\netcoreapp2.0' (CoreNLogEventLog, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null)
+2019-01-19 14:32:24.9365 Debug Search for auto loading files in location: D:\AKKI_DEV\RND\CoreNLogEventLog\CoreNLogEventLog\bin\Debug\netcoreapp2.0
+2019-01-19 14:32:24.9365 Debug Auto loading based on AppDomain-BaseDirectory found location: D:\AKKI_DEV\RND\CoreNLogEventLog\CoreNLogEventLog\bin\Debug\netcoreapp2.0
+2019-01-19 14:32:24.9365 Debug Search for auto loading files in location: D:\AKKI_DEV\RND\CoreNLogEventLog\CoreNLogEventLog\bin\Debug\netcoreapp2.0
+2019-01-19 14:32:24.9365 Debug Start auto loading, location: C:\Users\Akshay\.nuget\packages\nlog\4.5.11\lib\netstandard2.0
+2019-01-19 14:32:24.9365 Trace Assembly 'Microsoft.Extensions.Logging, Version=2.0.2.0, Culture=neutral, PublicKeyToken=adb9793829ddae60' will be hidden in callsite stacktrace
+2019-01-19 14:32:24.9365 Trace Assembly 'Microsoft.Extensions.Logging.Abstractions, Version=2.0.2.0, Culture=neutral, PublicKeyToken=adb9793829ddae60' will be hidden in callsite stacktrace
+2019-01-19 14:32:24.9365 Debug Auto loading done
+2019-01-19 14:32:24.9365 Info Message Template Auto Format enabled
+2019-01-19 14:32:24.9511 Info Loading assembly: Nlog.WindowsEventLog
+2019-01-19 14:32:24.9511 Debug ScanAssembly('NLog.WindowsEventLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c')
+2019-01-19 14:32:24.9907 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2019-01-19 14:32:24.9907 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2019-01-19 14:32:25.0036 Debug Setting 'UppercaseLayoutRendererWrapper.uppercase' to 'true'
+2019-01-19 14:32:25.0321 Trace Wrapping LevelLayoutRenderer with UppercaseLayoutRendererWrapper
+2019-01-19 14:32:25.0321 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2019-01-19 14:32:25.0321 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2019-01-19 14:32:25.0321 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2019-01-19 14:32:25.0321 Trace Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2019-01-19 14:32:25.0321 Trace  Scanning Property Culture '' System.Globalization
+2019-01-19 14:32:25.0321 Trace  Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2019-01-19 14:32:25.0321 Trace  Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2019-01-19 14:32:25.0321 Trace   Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2019-01-19 14:32:25.0321 Trace   Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2019-01-19 14:32:25.0321 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2019-01-19 14:32:25.0321 Trace Scanning LoggerNameLayoutRenderer 'Layout Renderer: ${logger}'
+2019-01-19 14:32:25.0321 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2019-01-19 14:32:25.0321 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2019-01-19 14:32:25.0452 Debug Setting 'EventLogTarget.name' to 'eventlog'
+2019-01-19 14:32:25.0452 Debug Setting 'EventLogTarget.source' to 'NLogEventLog'
+2019-01-19 14:32:25.0452 Debug Setting 'EventLogTarget.layout' to '${message}${newline}${exception:format=ToString}'
+2019-01-19 14:32:25.0452 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2019-01-19 14:32:25.0452 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2019-01-19 14:32:25.0452 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2019-01-19 14:32:25.0452 Trace Scanning NewLineLayoutRenderer 'Layout Renderer: ${newline}'
+2019-01-19 14:32:25.0654 Debug Setting 'ExceptionLayoutRenderer.format' to 'ToString'
+2019-01-19 14:32:25.0654 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2019-01-19 14:32:25.0654 Trace Scanning ExceptionLayoutRenderer 'Layout Renderer: ${exception}'
+2019-01-19 14:32:25.0654 Trace  Scanning Property Formats 'System.Collections.Generic.List`1[NLog.Config.ExceptionRenderingFormat]' System.Collections.Generic
+2019-01-19 14:32:25.0654 Debug Setting 'EventLogTarget.Log' to 'Application'
+2019-01-19 14:32:25.0654 Debug Setting 'EventLogTarget.machinename' to '.'
+2019-01-19 14:32:25.0654 Info Adding target EventLog Target[eventlog]
+2019-01-19 14:32:25.0654 Debug Registered target eventlog: NLog.Targets.EventLogTarget
+2019-01-19 14:32:25.0654 Trace ParseRulesElement
+2019-01-19 14:32:25.0808 Info Configured from an XML element in D:\AKKI_DEV\RND\CoreNLogEventLog\CoreNLogEventLog/nlog.config...
+2019-01-19 14:32:25.0808 Debug Unused target checking is started... Rule Count: 1, Target Count: 1
+2019-01-19 14:32:25.0952 Debug Unused target checking is completed. Total Rule Count: 1, Total Target Count: 1, Unused Target Count: 0
+2019-01-19 14:32:25.0952 Debug --- NLog configuration dump ---
+2019-01-19 14:32:25.0952 Debug Targets:
+2019-01-19 14:32:25.0952 Debug EventLog Target[eventlog]
+2019-01-19 14:32:25.0952 Debug Rules:
+2019-01-19 14:32:25.0952 Debug logNamePattern: (:All) levels: [ Error Fatal ] appendTo: [ eventlog ]
+2019-01-19 14:32:25.0952 Debug --- End of NLog configuration dump ---
+2019-01-19 14:32:25.1085 Trace FindReachableObject<System.Object>:
+2019-01-19 14:32:25.1085 Trace Scanning LoggingRule 'logNamePattern: (:All) levels: [ Error Fatal ] appendTo: [ eventlog ]'
+2019-01-19 14:32:25.1085 Trace  Scanning Property Targets 'System.Collections.Generic.List`1[NLog.Targets.Target]' System.Collections.Generic
+2019-01-19 14:32:25.1085 Trace  Scanning EventLogTarget 'EventLog Target[eventlog]'
+2019-01-19 14:32:25.1085 Trace   Scanning Property Source ''NLogEventLog'' NLog.Layouts
+2019-01-19 14:32:25.1085 Trace   Scanning SimpleLayout ''NLogEventLog''
+2019-01-19 14:32:25.1085 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2019-01-19 14:32:25.1085 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2019-01-19 14:32:25.1085 Trace   Scanning Property Layout ''${message}${newline}${exception:format=ToString}'' NLog.Layouts
+2019-01-19 14:32:25.1085 Trace   Scanning SimpleLayout ''${message}${newline}${exception:format=ToString}''
+2019-01-19 14:32:25.1085 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2019-01-19 14:32:25.1085 Trace    Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2019-01-19 14:32:25.1085 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2019-01-19 14:32:25.1085 Trace    Scanning ExceptionLayoutRenderer 'Layout Renderer: ${exception}'
+2019-01-19 14:32:25.1085 Trace     Scanning Property Formats 'System.Collections.Generic.List`1[NLog.Config.ExceptionRenderingFormat]' System.Collections.Generic
+2019-01-19 14:32:25.1085 Trace  Scanning Property ChildRules 'System.Collections.Generic.List`1[NLog.Config.LoggingRule]' System.Collections.Generic
+2019-01-19 14:32:25.1085 Trace  Scanning Property Filters 'System.Collections.Generic.List`1[NLog.Filters.Filter]' System.Collections.Generic
+2019-01-19 14:32:25.1085 Trace  Scanning Property Levels 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LogLevel]' System.Collections.ObjectModel
+2019-01-19 14:32:25.1085 Info Found 8 configuration items
+2019-01-19 14:32:25.1085 Trace Initializing Layout Renderer: ${exception}
+2019-01-19 14:32:25.1085 Trace Initializing Layout Renderer: ${literal}
+2019-01-19 14:32:25.1085 Trace Initializing Layout Renderer: ${message}
+2019-01-19 14:32:25.1085 Trace Initializing '${message}${newline}${exception:format=ToString}'
+2019-01-19 14:32:25.1256 Trace FindReachableObject<System.Object>:
+2019-01-19 14:32:25.1256 Trace Scanning SimpleLayout ''${message}${newline}${exception:format=ToString}''
+2019-01-19 14:32:25.1256 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2019-01-19 14:32:25.1256 Trace  Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2019-01-19 14:32:25.1256 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2019-01-19 14:32:25.1256 Trace  Scanning ExceptionLayoutRenderer 'Layout Renderer: ${exception}'
+2019-01-19 14:32:25.1256 Trace   Scanning Property Formats 'System.Collections.Generic.List`1[NLog.Config.ExceptionRenderingFormat]' System.Collections.Generic
+2019-01-19 14:32:25.1256 Trace Initializing Layout Renderer: ${literal}
+2019-01-19 14:32:25.1256 Trace Initializing 'NLogEventLog'
+2019-01-19 14:32:25.1256 Trace FindReachableObject<System.Object>:
+2019-01-19 14:32:25.1256 Trace Scanning SimpleLayout ''NLogEventLog''
+2019-01-19 14:32:25.1256 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2019-01-19 14:32:25.1256 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2019-01-19 14:32:25.1256 Trace Initializing EventLog Target[eventlog]
+2019-01-19 14:32:25.1398 Trace FindReachableObject<NLog.Layouts.Layout>:
+2019-01-19 14:32:25.1398 Trace Scanning EventLogTarget 'EventLog Target[eventlog]'
+2019-01-19 14:32:25.1398 Trace  Scanning Property Source ''NLogEventLog'' NLog.Layouts
+2019-01-19 14:32:25.1398 Trace  Scanning SimpleLayout ''NLogEventLog''
+2019-01-19 14:32:25.1398 Trace  Scanning Property Layout ''${message}${newline}${exception:format=ToString}'' NLog.Layouts
+2019-01-19 14:32:25.1398 Trace  Scanning SimpleLayout ''${message}${newline}${exception:format=ToString}''
+2019-01-19 14:32:25.1398 Trace EventLog Target[eventlog] has 2 layouts
+2019-01-19 14:32:25.1941 Debug Watching path 'D:\AKKI_DEV\RND\CoreNLogEventLog\CoreNLogEventLog' filter 'nlog.config' for changes.
+2019-01-19 14:32:26.7951 Debug Targets for EventLogTarget by level:
+2019-01-19 14:32:26.7951 Debug Trace =>
+2019-01-19 14:32:26.7951 Debug Debug =>
+2019-01-19 14:32:26.7951 Debug Info =>
+2019-01-19 14:32:26.7951 Debug Warn =>
+2019-01-19 14:32:26.7951 Debug Error => eventlog
+2019-01-19 14:32:26.7951 Debug Fatal => eventlog

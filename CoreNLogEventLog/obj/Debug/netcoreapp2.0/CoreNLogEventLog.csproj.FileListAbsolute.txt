@@ -1,0 +1,10 @@
+D:\AKKI_DEV\RND\CoreNLogEventLog\CoreNLogEventLog\bin\Debug\netcoreapp2.0\CoreNLogEventLog.deps.json
+D:\AKKI_DEV\RND\CoreNLogEventLog\CoreNLogEventLog\bin\Debug\netcoreapp2.0\CoreNLogEventLog.runtimeconfig.json
+D:\AKKI_DEV\RND\CoreNLogEventLog\CoreNLogEventLog\bin\Debug\netcoreapp2.0\CoreNLogEventLog.runtimeconfig.dev.json
+D:\AKKI_DEV\RND\CoreNLogEventLog\CoreNLogEventLog\bin\Debug\netcoreapp2.0\CoreNLogEventLog.dll
+D:\AKKI_DEV\RND\CoreNLogEventLog\CoreNLogEventLog\obj\Debug\netcoreapp2.0\CoreNLogEventLog.csproj.CoreCompileInputs.cache
+D:\AKKI_DEV\RND\CoreNLogEventLog\CoreNLogEventLog\obj\Debug\netcoreapp2.0\CoreNLogEventLog.AssemblyInfoInputs.cache
+D:\AKKI_DEV\RND\CoreNLogEventLog\CoreNLogEventLog\obj\Debug\netcoreapp2.0\CoreNLogEventLog.AssemblyInfo.cs
+D:\AKKI_DEV\RND\CoreNLogEventLog\CoreNLogEventLog\bin\Debug\netcoreapp2.0\CoreNLogEventLog.pdb
+D:\AKKI_DEV\RND\CoreNLogEventLog\CoreNLogEventLog\obj\Debug\netcoreapp2.0\CoreNLogEventLog.dll
+D:\AKKI_DEV\RND\CoreNLogEventLog\CoreNLogEventLog\obj\Debug\netcoreapp2.0\CoreNLogEventLog.pdb
